@@ -64,6 +64,28 @@ Then add a cron entry, for example every five minutes:
 
 See [ROADMAP.md](ROADMAP.md) for what is done and what is next.
 
+## AI disclosure
+
+This module was written with AI assistance (Claude). Every change was reviewed before it was
+kept, and the module carries its own quality gate: PHPUnit, phpcs, PHPStan at level 8 with no
+baseline, and `dev/smoke.php`, which boots Icinga Web in process and dispatches every
+controller action. See [DEVELOPMENT.md](DEVELOPMENT.md).
+
+That gate is what the code is accountable to, not its authorship. Two things are worth naming
+anyway, because they are where generated code tends to be wrong:
+
+- **The Hetzner API surface was taken from the OpenAPI specifications, not from memory.**
+  Endpoint shapes, enum values, deprecations and the fields each resource carries were read
+  from `cloud.spec.json` and `hetzner.spec.json`. Where the specification and the live API
+  disagreed, the live API won and the difference is recorded in `CLAUDE.md`.
+- **Unverifiable parts are marked as such.** The S3 signing used for Object Storage is checked
+  against the published AWS Signature Version 4 test suite rather than against Hetzner, since
+  that path needs credentials this module's author does not hold. Load balancer metric series
+  names are still inferred, and [ROADMAP.md](ROADMAP.md) says so.
+
+Report anything that looks wrong as a bug in the usual way. Nothing here gets a pass for how
+it was produced.
+
 ## License
 
 GPL-3.0-or-later. See [LICENSE](LICENSE).

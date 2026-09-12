@@ -31,6 +31,12 @@ All notable changes to this module are documented here, in
 - The cost dashboard reported 0 volumes while charging for their storage, because the volume
   count was never read from the database.
 
+### Documentation
+
+- AI disclosure in `README.md` and `doc/01-About.md`, naming which parts are verified against
+  the specification, against a live account, or not verifiable without credentials.
+- The scope section no longer claims Object Storage is uncovered.
+
 ## [0.1.0]
 
 ### Added
