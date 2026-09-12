@@ -1,0 +1,42 @@
+{
+    "certificates": [
+        {
+            "id": 42,
+            "name": "my-resource",
+            "labels": [],
+            "type": "uploaded",
+            "certificate": "-----BEGIN CERTIFICATE-----\n...",
+            "created": "2016-01-30T23:55:00Z",
+            "not_valid_before": "2019-01-08T10:00:00Z",
+            "not_valid_after": "2019-07-08T09:59:59Z",
+            "domain_names": [
+                "example"
+            ],
+            "fingerprint": "03:c7:55:9b:2a:d1:04:17:09:f6:d0:7f:18:34:63:d4:3e:5f",
+            "status": {
+                "issuance": "completed",
+                "renewal": "scheduled",
+                "error": {
+                    "code": "example",
+                    "message": "example"
+                }
+            },
+            "used_by": [
+                {
+                    "id": 4711,
+                    "type": "load_balancer"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 3,
+            "per_page": 25,
+            "previous_page": 2,
+            "next_page": 4,
+            "last_page": 4,
+            "total_entries": 100
+        }
+    }
+}

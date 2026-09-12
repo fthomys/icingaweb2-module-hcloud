@@ -1,0 +1,45 @@
+{
+    "zones": [
+        {
+            "id": 42,
+            "name": "example.com",
+            "created": "2016-01-30T23:55:00Z",
+            "primary_nameservers": [
+                {
+                    "address": "198.51.100.1",
+                    "port": 5353,
+                    "tsig_key": "example",
+                    "tsig_algorithm": "hmac-md5"
+                }
+            ],
+            "labels": [],
+            "protection": {
+                "delete": false
+            },
+            "ttl": 10800,
+            "status": "ok",
+            "record_count": 1,
+            "authoritative_nameservers": {
+                "assigned": [
+                    "example"
+                ],
+                "delegated": [
+                    "example"
+                ],
+                "delegation_last_check": "2016-01-30T23:55:00Z",
+                "delegation_status": "valid"
+            },
+            "registrar": "hetzner"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 3,
+            "per_page": 25,
+            "previous_page": 2,
+            "next_page": 4,
+            "last_page": 4,
+            "total_entries": 100
+        }
+    }
+}

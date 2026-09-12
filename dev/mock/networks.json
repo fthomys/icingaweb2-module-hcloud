@@ -1,0 +1,46 @@
+{
+    "networks": [
+        {
+            "id": 4711,
+            "name": "mynet",
+            "ip_range": "10.0.0.0/16",
+            "subnets": [
+                {
+                    "type": "cloud",
+                    "ip_range": "10.0.1.0/24",
+                    "network_zone": "eu-central",
+                    "gateway": "10.0.0.1",
+                    "vswitch_id": 1000
+                }
+            ],
+            "routes": [
+                {
+                    "destination": "10.100.1.0/24",
+                    "gateway": "10.0.1.1"
+                }
+            ],
+            "servers": [
+                1
+            ],
+            "load_balancers": [
+                1
+            ],
+            "protection": {
+                "delete": false
+            },
+            "labels": [],
+            "created": "2016-01-30T23:55:00Z",
+            "expose_routes_to_vswitch": false
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 3,
+            "per_page": 25,
+            "previous_page": 2,
+            "next_page": 4,
+            "last_page": 4,
+            "total_entries": 100
+        }
+    }
+}

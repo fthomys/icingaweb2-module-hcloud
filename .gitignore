@@ -1,0 +1,6 @@
+/.phpunit.cache/
+/.phpcs-cache
+/dev/mock/raw/*
+!/dev/mock/raw/.gitkeep
+*.orig
+*.rej

@@ -1,0 +1,417 @@
+.hcloud-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  white-space: nowrap;
+}
+
+.hcloud-status-ball {
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.6em;
+  width: 0.6em;
+  flex: 0 0 auto;
+
+  &.state-ok { background-color: @color-ok; }
+  &.state-warning { background-color: @color-warning; }
+  &.state-critical { background-color: @color-critical; }
+  &.state-pending { background-color: @color-pending; }
+  &.state-unknown { background-color: @color-unknown; }
+}
+
+.hcloud-labels {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+}
+
+.hcloud-label {
+  background-color: @gray-lighter;
+  border-radius: 0.25em;
+  color: @text-color;
+  font-size: 0.857em;
+  padding: 0.1em 0.4em;
+  white-space: nowrap;
+}
+
+.hcloud-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 1em;
+}
+
+.hcloud-summary-card {
+  border: 1px solid @gray-lighter;
+  border-radius: 0.25em;
+  padding: 1em;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.hcloud-summary-sync {
+  color: @text-color-light;
+  margin-top: -0.5em;
+}
+
+.hcloud-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin-top: 0.75em;
+}
+
+.hcloud-tile {
+  background-color: @gray-lightest;
+  border-radius: 0.25em;
+  display: flex;
+  flex-direction: column;
+  min-width: 7em;
+  padding: 0.6em 0.8em;
+
+  &.hcloud-tile-problem {
+    background-color: fade(@color-critical, 12%);
+  }
+}
+
+.hcloud-tile-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.hcloud-tile-label {
+  color: @text-color-light;
+  font-size: 0.857em;
+}
+
+.hcloud-costs {
+  padding: 1em;
+
+  h2 {
+    margin-bottom: 0.5em;
+  }
+}
+
+.hcloud-cost-table td:nth-child(4),
+.hcloud-cost-table td:nth-child(5),
+.hcloud-cost-table td:nth-child(6),
+.hcloud-cost-table th:nth-child(4),
+.hcloud-cost-table th:nth-child(5),
+.hcloud-cost-table th:nth-child(6) {
+  text-align: right;
+}
+
+.hcloud-cost-total {
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.hcloud-metric {
+  margin-bottom: 1.5em;
+  padding: 0 1em;
+}
+
+.hcloud-metric-title {
+  margin-bottom: 0.25em;
+}
+
+.hcloud-metric-plot {
+  position: relative;
+}
+
+.hcloud-metric-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: crosshair;
+
+  .hcloud-metric-crosshair {
+    stroke: @text-color-light;
+    stroke-width: 1;
+    stroke-dasharray: 3 3;
+    pointer-events: none;
+  }
+
+  .hcloud-metric-grid {
+    stroke: @gray-light;
+    stroke-width: 0.5;
+    opacity: 0.5;
+  }
+
+  .hcloud-metric-tick {
+    fill: @text-color-light;
+    font-size: 9px;
+  }
+
+  .hcloud-metric-band {
+    stroke: none;
+  }
+
+  .hcloud-metric-band-0 { fill: fade(@icinga-blue, 22%); }
+  .hcloud-metric-band-1 { fill: fade(@color-critical, 22%); }
+  .hcloud-metric-band-2 { fill: fade(@color-ok, 22%); }
+  .hcloud-metric-band-3 { fill: fade(@color-warning, 22%); }
+
+  .hcloud-metric-line {
+    fill: none;
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .hcloud-metric-dot {
+    stroke: none;
+  }
+
+  .hcloud-metric-dot.hcloud-metric-series-0 { fill: @icinga-blue; }
+  .hcloud-metric-dot.hcloud-metric-series-1 { fill: @color-critical; }
+  .hcloud-metric-dot.hcloud-metric-series-2 { fill: @color-ok; }
+  .hcloud-metric-dot.hcloud-metric-series-3 { fill: @color-warning; }
+
+  .hcloud-metric-series-0 { stroke: @icinga-blue; }
+  .hcloud-metric-series-1 { stroke: @color-critical; }
+  .hcloud-metric-series-2 { stroke: @color-ok; }
+  .hcloud-metric-series-3 { stroke: @color-warning; }
+}
+
+.hcloud-metric-tooltip {
+  background-color: @body-bg-color;
+  border: 1px solid @gray-light;
+  border-radius: 0.25em;
+  box-shadow: 0 2px 8px fade(black, 25%);
+  font-size: 0.857em;
+  padding: 0.4em 0.6em;
+  pointer-events: none;
+  position: absolute;
+  top: 0.5em;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.hcloud-metric-tooltip-time {
+  border-bottom: 1px solid @gray-lighter;
+  color: @text-color-light;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.2em;
+}
+
+.hcloud-metric-tooltip-row {
+  align-items: center;
+  display: flex;
+  gap: 0.4em;
+}
+
+.hcloud-metric-tooltip-label {
+  color: @text-color;
+}
+
+.hcloud-metric-tooltip-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: bold;
+  margin-left: auto;
+  padding-left: 1em;
+}
+
+.hcloud-range-picker {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  margin: 0 1em 0.75em;
+}
+
+.hcloud-range-label {
+  color: @text-color-light;
+  font-size: 0.857em;
+  margin-right: 0.25em;
+}
+
+.hcloud-range-option {
+  border: 1px solid @gray-lighter;
+  border-radius: 0.25em;
+  font-size: 0.857em;
+  padding: 0.15em 0.6em;
+  text-decoration: none;
+
+  &:hover {
+    border-color: @icinga-blue;
+  }
+
+  &.active {
+    background-color: @icinga-blue;
+    border-color: @icinga-blue;
+    color: @body-bg-color;
+  }
+}
+
+.hcloud-metric-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1.5em;
+  list-style: none;
+  margin: 0.35em 0 0;
+  padding: 0;
+}
+
+.hcloud-metric-legend-item {
+  align-items: center;
+  display: flex;
+  gap: 0.4em;
+  font-size: 0.857em;
+}
+
+.hcloud-metric-swatch {
+  border-radius: 2px;
+  display: inline-block;
+  height: 0.7em;
+  width: 0.7em;
+
+  &.hcloud-metric-series-0 { background-color: @icinga-blue; }
+  &.hcloud-metric-series-1 { background-color: @color-critical; }
+  &.hcloud-metric-series-2 { background-color: @color-ok; }
+  &.hcloud-metric-series-3 { background-color: @color-warning; }
+}
+
+.hcloud-metric-legend-label {
+  font-weight: bold;
+}
+
+.hcloud-metric-legend-values {
+  color: @text-color-light;
+  font-variant-numeric: tabular-nums;
+}
+
+.hcloud-metric-empty {
+  color: @text-color-light;
+  font-style: italic;
+}
+
+.hcloud-setup-hint {
+  padding: 1em 1.5em;
+  max-width: 46em;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.hcloud-setup-detail {
+  background-color: fade(@color-critical, 10%);
+  border-radius: 0.25em;
+  font-family: @font-family-fixed;
+  font-size: 0.857em;
+  padding: 0.5em 0.75em;
+  word-break: break-word;
+}
+
+.hcloud-setup-steps {
+  line-height: 1.7;
+  padding-left: 1.2em;
+}
+
+.hcloud-setup-link {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+.hcloud-attributes {
+  padding: 1em;
+}
+
+.hcloud-attribute-table th {
+  text-align: left;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.hcloud-project-config {
+  margin-bottom: 1.5em;
+}
+
+.hcloud-add-project {
+  display: inline-block;
+  margin-top: 0.75em;
+}
+
+.hcloud-summary-pending {
+  background-color: fade(@color-pending, 15%);
+  border-radius: 0.25em;
+  padding: 0.6em 0.9em;
+}
+
+.hcloud-sync-now {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.75em;
+}
+
+.hcloud-capacity {
+  padding: 1em 1em 0 1em;
+  max-width: 40em;
+}
+
+.hcloud-capacity-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.35em;
+}
+
+.hcloud-capacity-title {
+  font-weight: bold;
+}
+
+.hcloud-capacity-value {
+  color: @text-color-light;
+}
+
+.hcloud-capacity-bar {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0.25em;
+  display: block;
+  height: 0.75em;
+  width: 100%;
+}
+
+.hcloud-capacity-bar::-webkit-progress-bar {
+  background-color: @gray-lighter;
+  border-radius: 0.25em;
+}
+
+.hcloud-capacity-bar::-webkit-progress-value {
+  border-radius: 0.25em;
+}
+
+.hcloud-capacity-bar::-moz-progress-bar {
+  border-radius: 0.25em;
+}
+
+.hcloud-capacity-bar.state-ok::-webkit-progress-value {
+  background-color: @color-ok;
+}
+
+.hcloud-capacity-bar.state-ok::-moz-progress-bar {
+  background-color: @color-ok;
+}
+
+.hcloud-capacity-bar.state-warning::-webkit-progress-value {
+  background-color: @color-warning;
+}
+
+.hcloud-capacity-bar.state-warning::-moz-progress-bar {
+  background-color: @color-warning;
+}
+
+.hcloud-capacity-bar.state-critical::-webkit-progress-value {
+  background-color: @color-critical;
+}
+
+.hcloud-capacity-bar.state-critical::-moz-progress-bar {
+  background-color: @color-critical;
+}

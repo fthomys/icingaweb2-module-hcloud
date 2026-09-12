@@ -1,0 +1,2014 @@
+# German translations for hcloud package.
+# This file is put in the public domain.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hcloud 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-13 00:45+0200\n"
+"PO-Revision-Date: 2026-09-12 14:57+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: application/controllers/ActionsController.php:20 configuration.php:28
+msgid "Activity"
+msgstr "Aktivität"
+
+#: application/controllers/BucketsController.php:19 configuration.php:24
+msgid "Object Storage"
+msgstr "Object Storage"
+
+#: application/controllers/CertificateController.php:23
+msgid "Domains"
+msgstr "Domains"
+
+#: application/controllers/CertificateController.php:28
+msgid "Used By"
+msgstr "Verwendet von"
+
+#: application/controllers/CertificatesController.php:19 configuration.php:21
+msgid "Certificates"
+msgstr "Zertifikate"
+
+#: application/controllers/ConfigController.php:26
+#: application/controllers/ConfigController.php:83
+#: application/forms/DatabaseConfigForm.php:38 configuration.php:33
+msgid "Database"
+msgstr "Datenbank"
+
+#: application/controllers/ConfigController.php:43
+msgid "Hetzner Cloud Projects"
+msgstr "Hetzner-Cloud-Projekte"
+
+#: application/controllers/ConfigController.php:64
+msgid "Sync Settings"
+msgstr "Synchronisierungs-Einstellungen"
+
+#: application/controllers/ConfigController.php:88 configuration.php:39
+msgid "Projects"
+msgstr "Projekte"
+
+#: application/controllers/ConfigController.php:93 configuration.php:29
+#: configuration.php:45
+msgid "Sync"
+msgstr "Synchronisierung"
+
+#: application/controllers/CostsController.php:16 configuration.php:27
+msgid "Costs"
+msgstr "Kosten"
+
+#: application/controllers/DashboardController.php:16 configuration.php:9
+#: library/Hcloud/ProvidedHook/DbMigration.php:24
+#: library/Hcloud/ProvidedHook/Health.php:20
+msgid "Hetzner Cloud"
+msgstr "Hetzner Cloud"
+
+#: application/controllers/DashboardController.php:42
+#: application/controllers/ServersController.php:20 configuration.php:15
+msgid "Servers"
+msgstr "Server"
+
+#: application/controllers/DashboardController.php:43
+#: application/controllers/VolumesController.php:20 configuration.php:16
+#: library/Hcloud/Pricing/CostCalculator.php:61
+msgid "Volumes"
+msgstr "Volumes"
+
+#: application/controllers/DashboardController.php:44
+#: application/controllers/LoadBalancersController.php:19 configuration.php:17
+msgid "Load Balancers"
+msgstr "Load Balancer"
+
+#: application/controllers/DashboardController.php:45
+#: application/controllers/NetworksController.php:19 configuration.php:18
+msgid "Networks"
+msgstr "Netzwerke"
+
+#: application/controllers/DashboardController.php:46
+#: application/controllers/FirewallsController.php:19
+#: application/controllers/ServerController.php:42 configuration.php:19
+msgid "Firewalls"
+msgstr "Firewalls"
+
+#: application/controllers/DashboardController.php:47
+#: application/controllers/ZonesController.php:21 configuration.php:22
+msgid "DNS Zones"
+msgstr "DNS-Zonen"
+
+#: application/controllers/DashboardController.php:48
+#: application/controllers/StorageBoxesController.php:20 configuration.php:23
+msgid "Storage Boxes"
+msgstr "Storage Boxes"
+
+#: application/controllers/DashboardController.php:49
+msgid "Buckets"
+msgstr "Buckets"
+
+#: application/controllers/DashboardController.php:52
+msgid "Servers not running"
+msgstr "Server, die nicht laufen"
+
+#: application/controllers/DashboardController.php:57
+msgid "Unhealthy LB targets"
+msgstr "Ungesunde LB-Ziele"
+
+#: application/controllers/DashboardController.php:62
+msgid "Pending firewall bindings"
+msgstr "Ausstehende Firewall-Zuweisungen"
+
+#: application/controllers/DashboardController.php:67
+msgid "Failed actions"
+msgstr "Fehlgeschlagene Aktionen"
+
+#: application/controllers/DashboardController.php:72
+msgid "Blocked IPs"
+msgstr "Gesperrte IPs"
+
+#: application/controllers/FirewallController.php:23
+msgid "Rules"
+msgstr "Regeln"
+
+#: application/controllers/FirewallController.php:28
+msgid "Applied To"
+msgstr "Angewendet auf"
+
+#: application/controllers/FloatingIpsController.php:19
+msgid "Floating IP Addresses"
+msgstr "Floating-IP-Adressen"
+
+#: application/controllers/ImagesController.php:20 configuration.php:25
+msgid "Images"
+msgstr "Images"
+
+#: application/controllers/IpsController.php:20
+msgid "Primary IP Addresses"
+msgstr "Primäre IP-Adressen"
+
+#: application/controllers/LoadBalancerController.php:23
+msgid "Services"
+msgstr "Services"
+
+#: application/controllers/LoadBalancerController.php:28
+msgid "Targets"
+msgstr "Ziele"
+
+#: application/controllers/LoadBalancerController.php:33
+msgid "Target Health"
+msgstr "Zielzustand"
+
+#: application/controllers/NetworkController.php:23
+msgid "Subnets"
+msgstr "Subnetze"
+
+#: application/controllers/NetworkController.php:28
+msgid "Routes"
+msgstr "Routen"
+
+#: application/controllers/PlacementGroupsController.php:19
+msgid "Placement Groups"
+msgstr "Platzierungsgruppen"
+
+#: application/controllers/ServerController.php:32
+msgid "Public IPs"
+msgstr "Öffentliche IPs"
+
+#: application/controllers/ServerController.php:37
+msgid "Private Networks"
+msgstr "Private Netzwerke"
+
+#: application/controllers/SshKeysController.php:19 configuration.php:26
+msgid "SSH Keys"
+msgstr "SSH-Schlüssel"
+
+#: application/controllers/StorageBoxController.php:46
+msgid "Usage"
+msgstr "Auslastung"
+
+#: application/controllers/StorageBoxController.php:55
+msgid "Subaccounts"
+msgstr "Unterkonten"
+
+#: application/controllers/StorageBoxController.php:60
+msgid "Snapshots"
+msgstr "Snapshots"
+
+#: application/controllers/SyncController.php:22
+msgid "Sync Runs"
+msgstr "Synchronisierungsläufe"
+
+#: application/controllers/ZoneController.php:36
+msgid "Record Sets"
+msgstr "Record Sets"
+
+#: application/controllers/ZoneController.php:41
+msgid "Nameservers"
+msgstr "Nameserver"
+
+#: application/forms/DatabaseConfigForm.php:30
+msgid ""
+"No database resource exists yet. Create one under Configuration, Resources "
+"first."
+msgstr ""
+"Es existiert noch keine Datenbank-Resource. Bitte zuerst unter "
+"Konfiguration, Resourcen eine anlegen."
+
+#: application/forms/DatabaseConfigForm.php:40
+msgid "The Icinga Web database resource holding the hcloud schema."
+msgstr "Die Icinga-Web-Datenbank-Resource mit dem hcloud-Schema."
+
+#: application/forms/DatabaseConfigForm.php:44
+msgid "Please choose"
+msgstr "Bitte wählen"
+
+#: application/forms/DatabaseConfigForm.php:48
+#: application/forms/ProjectConfigForm.php:103
+#: application/forms/SyncConfigForm.php:47
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: application/forms/ProjectConfigForm.php:39
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:48
+msgid "Key"
+msgstr "Schlüssel"
+
+#: application/forms/ProjectConfigForm.php:41
+msgid ""
+"Identifies the project in the database and on the command line. Letters, "
+"digits, dash and underscore."
+msgstr ""
+"Identifiziert das Projekt in der Datenbank und auf der Kommandozeile. "
+"Buchstaben, Ziffern, Bindestrich und Unterstrich."
+
+#: application/forms/ProjectConfigForm.php:50
+#: library/Hcloud/Model/Certificate.php:46 library/Hcloud/Model/Firewall.php:38
+#: library/Hcloud/Model/FloatingIp.php:45 library/Hcloud/Model/Image.php:54
+#: library/Hcloud/Model/IsoImage.php:39
+#: library/Hcloud/Model/LoadBalancer.php:50
+#: library/Hcloud/Model/LoadBalancerType.php:41
+#: library/Hcloud/Model/Location.php:39 library/Hcloud/Model/Network.php:41
+#: library/Hcloud/Model/ObjectStorageBucket.php:41
+#: library/Hcloud/Model/PlacementGroup.php:39
+#: library/Hcloud/Model/PricingLoadBalancerType.php:53
+#: library/Hcloud/Model/PricingServerType.php:53
+#: library/Hcloud/Model/PrimaryIp.php:46 library/Hcloud/Model/Project.php:48
+#: library/Hcloud/Model/Server.php:53 library/Hcloud/Model/ServerType.php:45
+#: library/Hcloud/Model/SshKey.php:40 library/Hcloud/Model/StorageBox.php:58
+#: library/Hcloud/Model/StorageBoxSnapshot.php:55
+#: library/Hcloud/Model/StorageBoxSubaccount.php:60
+#: library/Hcloud/Model/StorageBoxType.php:41
+#: library/Hcloud/Model/Volume.php:45 library/Hcloud/Model/Zone.php:46
+#: library/Hcloud/Model/ZoneRrset.php:52
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:49
+msgid "Name"
+msgstr "Name"
+
+#: application/forms/ProjectConfigForm.php:51
+msgid "Shown in the interface."
+msgstr "Wird in der Oberfläche angezeigt."
+
+#: application/forms/ProjectConfigForm.php:57
+msgid "API Token"
+msgstr "API-Token"
+
+#: application/forms/ProjectConfigForm.php:59
+msgid "Leave empty to keep the stored token."
+msgstr "Leer lassen, um das gespeicherte Token zu behalten."
+
+#: application/forms/ProjectConfigForm.php:60
+msgid "A Hetzner Cloud API token with Read permission."
+msgstr "Ein Hetzner-Cloud-API-Token mit Leserechten."
+
+#: application/forms/ProjectConfigForm.php:66
+#: library/Hcloud/Model/Project.php:49
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:51
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: application/forms/ProjectConfigForm.php:67
+msgid "Only enabled projects are synced."
+msgstr "Es werden nur aktivierte Projekte synchronisiert."
+
+#: application/forms/ProjectConfigForm.php:74
+msgid "Object Storage Access Key"
+msgstr "Object-Storage-Zugriffsschlüssel"
+
+#: application/forms/ProjectConfigForm.php:76
+msgid ""
+"S3 access key of this project. Object Storage has no Hetzner API, so it is "
+"read over S3 with its own credentials. Leave empty to skip Object Storage."
+msgstr ""
+"S3-Zugriffsschlüssel dieses Projekts. Für Object Storage gibt es keine "
+"Hetzner-API, es wird deshalb über S3 mit eigenen Zugangsdaten gelesen. Leer "
+"lassen, um Object Storage zu überspringen."
+
+#: application/forms/ProjectConfigForm.php:83
+msgid "Object Storage Secret Key"
+msgstr "Object-Storage-Geheimschlüssel"
+
+#: application/forms/ProjectConfigForm.php:85
+msgid "Leave empty to keep the stored secret key."
+msgstr "Leer lassen, um den gespeicherten Geheimschlüssel zu behalten."
+
+#: application/forms/ProjectConfigForm.php:86
+msgid "S3 secret key belonging to the access key above."
+msgstr "S3-Geheimschlüssel zum obigen Zugriffsschlüssel."
+
+#: application/forms/ProjectConfigForm.php:91
+msgid "Object Storage Locations"
+msgstr "Object-Storage-Standorte"
+
+#: application/forms/ProjectConfigForm.php:93
+msgid ""
+"Comma separated locations to look for buckets in. Buckets are bound to a "
+"location and each one has to be asked separately."
+msgstr ""
+"Kommagetrennte Standorte, an denen nach Buckets gesucht wird. Buckets "
+"gehören zu genau einem Standort, jeder muss einzeln abgefragt werden."
+
+#: application/forms/ProjectConfigForm.php:103
+msgid "Add Project"
+msgstr "Projekt anlegen"
+
+#: application/forms/ProjectConfigForm.php:108
+msgid "Remove"
+msgstr "Entfernen"
+
+#: application/forms/ProjectConfigForm.php:126
+msgid "The key may only contain letters, digits, dash and underscore."
+msgstr ""
+"Der Schlüssel darf nur Buchstaben, Ziffern, Bindestrich und Unterstrich "
+"enthalten.Der Schlüssel darf nur Buchstaben, Ziffern, Bindestrich und "
+"Unterstrich enthalten."
+
+#: application/forms/SyncConfigForm.php:21
+msgid "Metric retention (hours)"
+msgstr "Aufbewahrung der Messwerte (Stunden)"
+
+#: application/forms/SyncConfigForm.php:23
+msgid ""
+"How many hours of metric samples to keep. Older samples are pruned after "
+"each sync."
+msgstr ""
+"Wie viele Stunden an Messwerten aufbewahrt werden. Ältere werden nach jedem "
+"Sync entfernt."
+
+#: application/forms/SyncConfigForm.php:31
+msgid "Action retention (days)"
+msgstr "Aufbewahrung der Aktionen (Tage)"
+
+#: application/forms/SyncConfigForm.php:32
+msgid "How many days of Hetzner action history to keep."
+msgstr "Wie viele Tage der Hetzner-Aktionshistorie aufbewahrt werden."
+
+#: application/forms/SyncConfigForm.php:39
+msgid "Page size"
+msgstr "Seitengröße"
+
+#: application/forms/SyncConfigForm.php:40
+msgid "Objects per API request. Hetzner caps this at 50."
+msgstr "Objekte pro API-Anfrage. Hetzner begrenzt das auf 50."
+
+#: application/forms/SyncNowForm.php:51 application/forms/SyncNowForm.php:75
+msgid "Sync Now"
+msgstr "Jetzt synchronisieren"
+
+#: application/forms/SyncNowForm.php:53
+msgid "No enabled project with a token is configured."
+msgstr "Es ist kein aktiviertes Projekt mit Token konfiguriert."
+
+#: application/forms/SyncNowForm.php:59
+msgid "All projects"
+msgstr "Alle Projekte"
+
+#: application/forms/SyncNowForm.php:65
+msgid "Project"
+msgstr "Projekt"
+
+#: application/forms/SyncNowForm.php:70
+msgid "Skip metrics"
+msgstr "Messwerte überspringen"
+
+#: application/forms/SyncNowForm.php:71
+msgid "Metrics take one API request per server and load balancer."
+msgstr "Messwerte kosten eine API-Anfrage pro Server und Load Balancer."
+
+#: application/forms/SyncNowForm.php:91
+msgid "Unknown project."
+msgstr "Unbekanntes Projekt."
+
+#: application/forms/SyncNowForm.php:129
+#, php-format
+msgid "Synced %d projects, %d rows written, %d removed."
+msgstr "%d Projekte synchronisiert, %d Zeilen geschrieben, %d entfernt."
+
+#: configuration.php:5
+msgid "Allow browsing synced Hetzner Cloud resources"
+msgstr "Erlaubt das Durchsuchen synchronisierter Hetzner-Cloud-Ressourcen"
+
+#: configuration.php:6
+msgid "Allow configuring Hetzner Cloud projects"
+msgstr "Erlaubt das Konfigurieren von Hetzner-Cloud-Projekten"
+
+#: configuration.php:7
+msgid "Allow starting a sync from the web interface"
+msgstr "Erlaubt das Starten eines Syncs über die Weboberfläche"
+
+#: configuration.php:14
+msgid "Dashboard"
+msgstr "Übersicht"
+
+#: configuration.php:20
+msgid "IP Addresses"
+msgstr "IP-Adressen"
+
+#: configuration.php:32
+msgid "Configure the hcloud database resource"
+msgstr "Datenbank-Resource für hcloud konfigurieren"
+
+#: configuration.php:38
+msgid "Configure Hetzner Cloud projects"
+msgstr "Hetzner-Cloud-Projekte konfigurieren"
+
+#: configuration.php:44
+msgid "Configure how often and how much is synced"
+msgstr "Konfigurieren, wie oft und wie viel synchronisiert wird"
+
+#: library/Hcloud/Common/Database.php:45
+msgid "No database resource configured. Set it under Configuration."
+msgstr ""
+"Keine Datenbankressource konfiguriert. Bitte unter Konfiguration festlegen."
+
+#: library/Hcloud/Enum/ActionStatus.php:21
+#: library/Hcloud/Enum/ServerStatus.php:27
+msgid "Running"
+msgstr "Läuft"
+
+#: library/Hcloud/Enum/ActionStatus.php:22 library/Hcloud/Model/Schema.php:54
+msgid "Success"
+msgstr "Erfolg"
+
+#: library/Hcloud/Enum/ActionStatus.php:23
+#: library/Hcloud/Enum/ZoneStatus.php:23 library/Hcloud/Model/SyncRun.php:57
+#: library/Hcloud/Model/SyncRunResource.php:50
+msgid "Error"
+msgstr "Fehler"
+
+#: library/Hcloud/Enum/CertificateRenewalStatus.php:22
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: library/Hcloud/Enum/CertificateRenewalStatus.php:23
+#: library/Hcloud/Enum/FirewallBindingStatus.php:21
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: library/Hcloud/Enum/CertificateRenewalStatus.php:24
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: library/Hcloud/Enum/CertificateRenewalStatus.php:25
+#: library/Hcloud/Enum/ImageStatus.php:23
+msgid "Unavailable"
+msgstr "Nicht verfügbar"
+
+#: library/Hcloud/Enum/CertificateType.php:20
+msgid "Uploaded"
+msgstr "Hochgeladen"
+
+#: library/Hcloud/Enum/CertificateType.php:21
+msgid "Managed"
+msgstr "Verwaltet"
+
+#: library/Hcloud/Enum/DelegationStatus.php:24
+msgid "Valid"
+msgstr "Gültig"
+
+#: library/Hcloud/Enum/DelegationStatus.php:25
+msgid "Partially valid"
+msgstr "Teilweise gültig"
+
+#: library/Hcloud/Enum/DelegationStatus.php:26
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: library/Hcloud/Enum/DelegationStatus.php:27
+msgid "Lame"
+msgstr "Lame"
+
+#: library/Hcloud/Enum/DelegationStatus.php:28
+msgid "Unregistered"
+msgstr "Nicht registriert"
+
+#: library/Hcloud/Enum/DelegationStatus.php:29
+#: library/Hcloud/Enum/ServerStatus.php:35
+#: library/Hcloud/Enum/TargetHealthStatus.php:23
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: library/Hcloud/Enum/FirewallBindingStatus.php:20
+msgid "Applied"
+msgstr "Angewendet"
+
+#: library/Hcloud/Enum/ImageStatus.php:21
+#: library/Hcloud/Enum/VolumeStatus.php:20
+#: library/Hcloud/Model/ServerTypeLocation.php:54
+msgid "Available"
+msgstr "Verfügbar"
+
+#: library/Hcloud/Enum/ImageStatus.php:22
+#: library/Hcloud/Enum/VolumeStatus.php:21
+msgid "Creating"
+msgstr "Wird erstellt"
+
+#: library/Hcloud/Enum/ImageType.php:22 library/Hcloud/Model/StorageBox.php:63
+msgid "System"
+msgstr "System"
+
+#: library/Hcloud/Enum/ImageType.php:23
+msgid "App"
+msgstr "Anwendung"
+
+#: library/Hcloud/Enum/ImageType.php:24
+#: library/Hcloud/Web/Widget/CostBreakdown.php:110
+msgid "Snapshot"
+msgstr "Snapshot"
+
+#: library/Hcloud/Enum/ImageType.php:25
+msgid "Backup"
+msgstr "Backup"
+
+#: library/Hcloud/Enum/PrimaryIpAssigneeType.php:20
+#: library/Hcloud/Model/StorageBox.php:62
+#: library/Hcloud/Model/StorageBoxSubaccount.php:64
+#: library/Hcloud/Web/ReferenceResolver.php:89
+#: library/Hcloud/Web/Widget/CostBreakdown.php:104
+msgid "Server"
+msgstr "Server"
+
+#: library/Hcloud/Enum/PrimaryIpAssigneeType.php:21
+msgid "Unassigned"
+msgstr "Nicht zugewiesen"
+
+#: library/Hcloud/Enum/ServerStatus.php:28
+#: library/Hcloud/Enum/StorageBoxStatus.php:22
+msgid "Initializing"
+msgstr "Wird initialisiert"
+
+#: library/Hcloud/Enum/ServerStatus.php:29
+msgid "Starting"
+msgstr "Startet"
+
+#: library/Hcloud/Enum/ServerStatus.php:30
+msgid "Stopping"
+msgstr "Stoppt"
+
+#: library/Hcloud/Enum/ServerStatus.php:31
+msgid "Off"
+msgstr "Aus"
+
+#: library/Hcloud/Enum/ServerStatus.php:32
+msgid "Deleting"
+msgstr "Wird gelöscht"
+
+#: library/Hcloud/Enum/ServerStatus.php:33
+msgid "Migrating"
+msgstr "Wird migriert"
+
+#: library/Hcloud/Enum/ServerStatus.php:34
+msgid "Rebuilding"
+msgstr "Wird neu aufgebaut"
+
+#: library/Hcloud/Enum/StorageBoxStatus.php:21
+msgid "Active"
+msgstr "Aktiv"
+
+#: library/Hcloud/Enum/StorageBoxStatus.php:23
+#: library/Hcloud/Model/Server.php:56
+msgid "Locked"
+msgstr "Gesperrt"
+
+#: library/Hcloud/Enum/TargetHealthDetail.php:24
+msgid "Unspecified"
+msgstr "Nicht angegeben"
+
+#: library/Hcloud/Enum/TargetHealthDetail.php:25
+msgid "No connection on layer 4"
+msgstr "Keine Verbindung auf Layer 4"
+
+#: library/Hcloud/Enum/TargetHealthDetail.php:26
+msgid "Timeout on layer 4"
+msgstr "Zeitüberschreitung auf Layer 4"
+
+#: library/Hcloud/Enum/TargetHealthDetail.php:27
+msgid "Timeout on layer 7"
+msgstr "Zeitüberschreitung auf Layer 7"
+
+#: library/Hcloud/Enum/TargetHealthDetail.php:28
+msgid "Unexpected HTTP status"
+msgstr "Unerwarteter HTTP-Status"
+
+#: library/Hcloud/Enum/TargetHealthDetail.php:29
+msgid "Unexpected HTTP content"
+msgstr "Unerwarteter HTTP-Inhalt"
+
+#: library/Hcloud/Enum/TargetHealthStatus.php:21
+msgid "Healthy"
+msgstr "Gesund"
+
+#: library/Hcloud/Enum/TargetHealthStatus.php:22
+msgid "Unhealthy"
+msgstr "Ungesund"
+
+#: library/Hcloud/Enum/ZoneStatus.php:21
+msgid "OK"
+msgstr "OK"
+
+#: library/Hcloud/Enum/ZoneStatus.php:22
+msgid "Updating"
+msgstr "Wird aktualisiert"
+
+#: library/Hcloud/Metric/SeriesInfo.php:39
+msgid "CPU"
+msgstr "CPU"
+
+#: library/Hcloud/Metric/SeriesInfo.php:43
+#: library/Hcloud/Metric/SeriesInfo.php:57
+#, php-format
+msgid "Disk %s read"
+msgstr "Festplatte %s lesen"
+
+#: library/Hcloud/Metric/SeriesInfo.php:43
+#: library/Hcloud/Metric/SeriesInfo.php:50
+msgid "IOPS"
+msgstr "IOPS"
+
+#: library/Hcloud/Metric/SeriesInfo.php:50
+#: library/Hcloud/Metric/SeriesInfo.php:64
+#, php-format
+msgid "Disk %s write"
+msgstr "Festplatte %s schreiben"
+
+#: library/Hcloud/Metric/SeriesInfo.php:57
+#: library/Hcloud/Metric/SeriesInfo.php:64
+#: library/Hcloud/Metric/SeriesInfo.php:86
+#: library/Hcloud/Metric/SeriesInfo.php:93
+msgid "throughput"
+msgstr "Durchsatz"
+
+#: library/Hcloud/Metric/SeriesInfo.php:72
+#: library/Hcloud/Metric/SeriesInfo.php:86
+#, php-format
+msgid "Network %s in"
+msgstr "Netzwerk %s eingehend"
+
+#: library/Hcloud/Metric/SeriesInfo.php:72
+#: library/Hcloud/Metric/SeriesInfo.php:79
+msgid "packets"
+msgstr "Pakete"
+
+#: library/Hcloud/Metric/SeriesInfo.php:79
+#: library/Hcloud/Metric/SeriesInfo.php:93
+#, php-format
+msgid "Network %s out"
+msgstr "Netzwerk %s ausgehend"
+
+#: library/Hcloud/Metric/SeriesInfo.php:101
+msgid "Open connections"
+msgstr "Offene Verbindungen"
+
+#: library/Hcloud/Metric/SeriesInfo.php:108
+msgid "New connections"
+msgstr "Neue Verbindungen"
+
+#: library/Hcloud/Metric/SeriesInfo.php:115
+msgid "Requests"
+msgstr "Anfragen"
+
+#: library/Hcloud/Metric/SeriesInfo.php:122
+msgid "Bandwidth in"
+msgstr "Bandbreite eingehend"
+
+#: library/Hcloud/Metric/SeriesInfo.php:129
+msgid "Bandwidth out"
+msgstr "Bandbreite ausgehend"
+
+#: library/Hcloud/Metric/TimeRange.php:41
+msgid "1 h"
+msgstr "1 Std."
+
+#: library/Hcloud/Metric/TimeRange.php:42
+msgid "6 h"
+msgstr "6 Std."
+
+#: library/Hcloud/Metric/TimeRange.php:43
+msgid "24 h"
+msgstr "24 Std."
+
+#: library/Hcloud/Metric/TimeRange.php:44
+msgid "48 h"
+msgstr "48 Std."
+
+#: library/Hcloud/Metric/TimeRange.php:45
+msgid "7 d"
+msgstr "7 Tage"
+
+#: library/Hcloud/Model/Action.php:40 library/Hcloud/Model/Certificate.php:45
+#: library/Hcloud/Model/Firewall.php:37 library/Hcloud/Model/FloatingIp.php:44
+#: library/Hcloud/Model/Image.php:53 library/Hcloud/Model/IsoImage.php:38
+#: library/Hcloud/Model/LoadBalancer.php:49
+#: library/Hcloud/Model/LoadBalancerType.php:40
+#: library/Hcloud/Model/Location.php:38 library/Hcloud/Model/Network.php:40
+#: library/Hcloud/Model/ObjectStorageBucket.php:40
+#: library/Hcloud/Model/PlacementGroup.php:38
+#: library/Hcloud/Model/PrimaryIp.php:45 library/Hcloud/Model/Project.php:46
+#: library/Hcloud/Model/Schema.php:51 library/Hcloud/Model/Server.php:52
+#: library/Hcloud/Model/ServerType.php:44 library/Hcloud/Model/SshKey.php:39
+#: library/Hcloud/Model/StorageBox.php:57
+#: library/Hcloud/Model/StorageBoxSnapshot.php:54
+#: library/Hcloud/Model/StorageBoxSubaccount.php:59
+#: library/Hcloud/Model/StorageBoxType.php:40
+#: library/Hcloud/Model/SyncRun.php:48
+#: library/Hcloud/Model/SyncRunResource.php:43
+#: library/Hcloud/Model/Volume.php:44 library/Hcloud/Model/Zone.php:45
+#: library/Hcloud/Model/ZoneRrset.php:51
+msgid "ID"
+msgstr "ID"
+
+#: library/Hcloud/Model/Action.php:41
+msgid "Command"
+msgstr "Befehl"
+
+#: library/Hcloud/Model/Action.php:42 library/Hcloud/Model/Image.php:57
+#: library/Hcloud/Model/LoadBalancerTargetHealth.php:50
+#: library/Hcloud/Model/ServerFirewall.php:46
+#: library/Hcloud/Model/Server.php:54 library/Hcloud/Model/StorageBox.php:60
+#: library/Hcloud/Model/SyncRun.php:52 library/Hcloud/Model/Volume.php:47
+#: library/Hcloud/Model/Zone.php:50
+msgid "Status"
+msgstr "Status"
+
+#: library/Hcloud/Model/Action.php:43
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: library/Hcloud/Model/Action.php:44 library/Hcloud/Model/SyncRun.php:50
+msgid "Started"
+msgstr "Gestartet"
+
+#: library/Hcloud/Model/Action.php:45
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: library/Hcloud/Model/Action.php:46
+msgid "Error Code"
+msgstr "Fehlercode"
+
+#: library/Hcloud/Model/Action.php:47
+msgid "Error Message"
+msgstr "Fehlermeldung"
+
+#: library/Hcloud/Model/ActionResource.php:44
+msgid "Action ID"
+msgstr "Aktions-ID"
+
+#: library/Hcloud/Model/ActionResource.php:45
+#: library/Hcloud/Model/FirewallAppliedResource.php:48
+#: library/Hcloud/Model/MetricSample.php:48
+msgid "Resource Type"
+msgstr "Ressourcentyp"
+
+#: library/Hcloud/Model/ActionResource.php:46
+#: library/Hcloud/Model/MetricSample.php:49
+msgid "Resource ID"
+msgstr "Ressourcen-ID"
+
+#: library/Hcloud/Model/CertificateDomain.php:43
+#: library/Hcloud/Model/CertificateUsedBy.php:44
+msgid "Certificate ID"
+msgstr "Zertifikats-ID"
+
+#: library/Hcloud/Model/CertificateDomain.php:44
+msgid "Domain Name"
+msgstr "Domainname"
+
+#: library/Hcloud/Model/Certificate.php:47 library/Hcloud/Model/Firewall.php:39
+#: library/Hcloud/Model/FloatingIp.php:47 library/Hcloud/Model/Image.php:58
+#: library/Hcloud/Model/LoadBalancer.php:51 library/Hcloud/Model/Network.php:43
+#: library/Hcloud/Model/ObjectStorageBucket.php:43
+#: library/Hcloud/Model/PlacementGroup.php:40
+#: library/Hcloud/Model/PrimaryIp.php:47 library/Hcloud/Model/Project.php:50
+#: library/Hcloud/Model/Server.php:55 library/Hcloud/Model/SshKey.php:43
+#: library/Hcloud/Model/StorageBox.php:59
+#: library/Hcloud/Model/StorageBoxSnapshot.php:58
+#: library/Hcloud/Model/StorageBoxSubaccount.php:65
+#: library/Hcloud/Model/Volume.php:46 library/Hcloud/Model/Zone.php:47
+msgid "Created"
+msgstr "Erstellt"
+
+#: library/Hcloud/Model/Certificate.php:48
+#: library/Hcloud/Model/FirewallAppliedTo.php:48
+#: library/Hcloud/Model/FloatingIp.php:49 library/Hcloud/Model/Image.php:56
+#: library/Hcloud/Model/IsoImage.php:41
+#: library/Hcloud/Model/LoadBalancerTarget.php:53
+#: library/Hcloud/Model/NetworkSubnet.php:49
+#: library/Hcloud/Model/PlacementGroup.php:41
+#: library/Hcloud/Model/PricingFloatingIp.php:45
+#: library/Hcloud/Model/PricingPrimaryIp.php:47
+#: library/Hcloud/Model/PrimaryIp.php:49 library/Hcloud/Model/ZoneRrset.php:53
+#: library/Hcloud/Web/Widget/CostBreakdown.php:80
+msgid "Type"
+msgstr "Typ"
+
+#: library/Hcloud/Model/Certificate.php:49
+msgid "Not Valid Before"
+msgstr "Gültig ab"
+
+#: library/Hcloud/Model/Certificate.php:50
+msgid "Not Valid After"
+msgstr "Gültig bis"
+
+#: library/Hcloud/Model/Certificate.php:51 library/Hcloud/Model/SshKey.php:41
+msgid "Fingerprint"
+msgstr "Fingerabdruck"
+
+#: library/Hcloud/Model/Certificate.php:52
+msgid "Status Issuance"
+msgstr "Ausstellungsstatus"
+
+#: library/Hcloud/Model/Certificate.php:53
+msgid "Status Renewal"
+msgstr "Erneuerungsstatus"
+
+#: library/Hcloud/Model/Certificate.php:54
+msgid "Status Error Code"
+msgstr "Status-Fehlercode"
+
+#: library/Hcloud/Model/Certificate.php:55
+msgid "Status Error Message"
+msgstr "Status-Fehlermeldung"
+
+#: library/Hcloud/Model/Certificate.php:56 library/Hcloud/Model/Firewall.php:40
+#: library/Hcloud/Model/FloatingIp.php:54 library/Hcloud/Model/Image.php:72
+#: library/Hcloud/Model/LoadBalancer.php:64 library/Hcloud/Model/Network.php:46
+#: library/Hcloud/Model/PlacementGroup.php:42
+#: library/Hcloud/Model/PrimaryIp.php:56 library/Hcloud/Model/Server.php:70
+#: library/Hcloud/Model/SshKey.php:44 library/Hcloud/Model/StorageBox.php:80
+#: library/Hcloud/Model/StorageBoxSnapshot.php:61
+#: library/Hcloud/Model/StorageBoxSubaccount.php:71
+#: library/Hcloud/Model/Volume.php:54 library/Hcloud/Model/Zone.php:56
+#: library/Hcloud/Model/ZoneRrset.php:56
+msgid "Labels"
+msgstr "Labels"
+
+#: library/Hcloud/Model/CertificateUsedBy.php:45
+msgid "Used By Type"
+msgstr "Verwendet von (Typ)"
+
+#: library/Hcloud/Model/CertificateUsedBy.php:46
+msgid "Used By ID"
+msgstr "Verwendet von (ID)"
+
+#: library/Hcloud/Model/FirewallAppliedResource.php:45
+#: library/Hcloud/Model/FirewallAppliedTo.php:46
+#: library/Hcloud/Model/FirewallRule.php:51
+#: library/Hcloud/Model/ServerFirewall.php:45
+msgid "Firewall ID"
+msgstr "Firewall-ID"
+
+#: library/Hcloud/Model/FirewallAppliedResource.php:46
+#: library/Hcloud/Model/FirewallAppliedTo.php:47
+msgid "Applied Index"
+msgstr "Zuweisungsindex"
+
+#: library/Hcloud/Model/FirewallAppliedResource.php:47
+#: library/Hcloud/Model/FirewallAppliedTo.php:49
+#: library/Hcloud/Model/FloatingIp.php:50
+#: library/Hcloud/Model/LoadBalancerTarget.php:54
+#: library/Hcloud/Model/ServerFirewall.php:44
+#: library/Hcloud/Model/ServerPrivateNetAliasIp.php:44
+#: library/Hcloud/Model/ServerPrivateNet.php:45
+#: library/Hcloud/Model/ServerPublicIpDnsPtr.php:45
+#: library/Hcloud/Model/ServerPublicIp.php:46
+#: library/Hcloud/Model/Volume.php:48
+msgid "Server ID"
+msgstr "Server-ID"
+
+#: library/Hcloud/Model/FirewallAppliedTo.php:50
+#: library/Hcloud/Model/LoadBalancerTarget.php:57
+msgid "Label Selector"
+msgstr "Label-Selektor"
+
+#: library/Hcloud/Model/FirewallRule.php:52
+msgid "Rule Index"
+msgstr "Regelindex"
+
+#: library/Hcloud/Model/FirewallRule.php:53
+msgid "Direction"
+msgstr "Richtung"
+
+#: library/Hcloud/Model/FirewallRule.php:54
+#: library/Hcloud/Model/LoadBalancerService.php:66
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: library/Hcloud/Model/FirewallRule.php:55
+#: library/Hcloud/Model/ZonePrimaryNameserver.php:47
+msgid "Port"
+msgstr "Port"
+
+#: library/Hcloud/Model/FirewallRule.php:56
+#: library/Hcloud/Model/FloatingIp.php:46 library/Hcloud/Model/Image.php:55
+#: library/Hcloud/Model/IsoImage.php:40
+#: library/Hcloud/Model/LoadBalancerType.php:42
+#: library/Hcloud/Model/Location.php:40 library/Hcloud/Model/ServerType.php:46
+#: library/Hcloud/Model/StorageBoxSnapshot.php:56
+#: library/Hcloud/Model/StorageBoxSubaccount.php:63
+#: library/Hcloud/Model/StorageBoxType.php:42
+msgid "Description"
+msgstr "Beschreibung"
+
+#: library/Hcloud/Model/FirewallRule.php:57
+msgid "Source IPs"
+msgstr "Quell-IPs"
+
+#: library/Hcloud/Model/FirewallRule.php:58
+msgid "Destination IPs"
+msgstr "Ziel-IPs"
+
+#: library/Hcloud/Model/FloatingIpDnsPtr.php:44
+msgid "Floating IP ID"
+msgstr "Floating-IP-ID"
+
+#: library/Hcloud/Model/FloatingIpDnsPtr.php:45
+#: library/Hcloud/Model/FloatingIp.php:48
+#: library/Hcloud/Model/LoadBalancerPrivateNet.php:46
+#: library/Hcloud/Model/PrimaryIpDnsPtr.php:45
+#: library/Hcloud/Model/PrimaryIp.php:48
+#: library/Hcloud/Model/ServerPrivateNet.php:47
+#: library/Hcloud/Model/ServerPublicIpDnsPtr.php:47
+#: library/Hcloud/Model/ServerPublicIp.php:49
+msgid "IP"
+msgstr "IP"
+
+#: library/Hcloud/Model/FloatingIpDnsPtr.php:46
+#: library/Hcloud/Model/PrimaryIpDnsPtr.php:46
+#: library/Hcloud/Model/ServerPublicIpDnsPtr.php:48
+msgid "DNS PTR"
+msgstr "DNS-PTR"
+
+#: library/Hcloud/Model/FloatingIp.php:51 library/Hcloud/Model/PrimaryIp.php:50
+#: library/Hcloud/Model/ServerPublicIp.php:50
+msgid "Blocked"
+msgstr "Gesperrt"
+
+#: library/Hcloud/Model/FloatingIp.php:52
+msgid "Home Location ID"
+msgstr "Heimatstandort-ID"
+
+#: library/Hcloud/Model/FloatingIp.php:53 library/Hcloud/Model/Image.php:69
+#: library/Hcloud/Model/LoadBalancer.php:63 library/Hcloud/Model/Network.php:45
+#: library/Hcloud/Model/PrimaryIp.php:55 library/Hcloud/Model/Server.php:68
+#: library/Hcloud/Model/StorageBox.php:79 library/Hcloud/Model/Volume.php:53
+#: library/Hcloud/Model/Zone.php:55
+msgid "Protection Delete"
+msgstr "Löschschutz"
+
+#: library/Hcloud/Model/Image.php:59
+msgid "Image Size"
+msgstr "Image-Größe"
+
+#: library/Hcloud/Model/Image.php:60
+msgid "Disk Size"
+msgstr "Festplattengröße"
+
+#: library/Hcloud/Model/Image.php:61 library/Hcloud/Model/IsoImage.php:42
+#: library/Hcloud/Model/ServerType.php:53
+msgid "Architecture"
+msgstr "Architektur"
+
+#: library/Hcloud/Model/Image.php:62
+msgid "OS Flavor"
+msgstr "Betriebssystem"
+
+#: library/Hcloud/Model/Image.php:63
+msgid "OS Version"
+msgstr "Betriebssystemversion"
+
+#: library/Hcloud/Model/Image.php:64
+msgid "Rapid Deploy"
+msgstr "Rapid Deploy"
+
+#: library/Hcloud/Model/Image.php:65
+msgid "Bound To"
+msgstr "Gebunden an"
+
+#: library/Hcloud/Model/Image.php:66
+msgid "Created From ID"
+msgstr "Erstellt aus ID"
+
+#: library/Hcloud/Model/Image.php:67
+msgid "Created From Name"
+msgstr "Erstellt aus Name"
+
+#: library/Hcloud/Model/Image.php:68
+#: library/Hcloud/Model/SyncRunResource.php:48
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: library/Hcloud/Model/Image.php:70 library/Hcloud/Model/IsoImage.php:43
+#: library/Hcloud/Model/LoadBalancerType.php:47
+#: library/Hcloud/Model/ServerTypeLocation.php:55
+#: library/Hcloud/Model/ServerType.php:54
+#: library/Hcloud/Model/StorageBoxType.php:47
+msgid "Deprecation Announced"
+msgstr "Abkündigung angekündigt"
+
+#: library/Hcloud/Model/Image.php:71 library/Hcloud/Model/IsoImage.php:44
+#: library/Hcloud/Model/LoadBalancerType.php:48
+#: library/Hcloud/Model/ServerTypeLocation.php:56
+#: library/Hcloud/Model/ServerType.php:55
+#: library/Hcloud/Model/StorageBoxType.php:48
+msgid "Deprecation Unavailable After"
+msgstr "Nicht mehr verfügbar ab"
+
+#: library/Hcloud/Model/LoadBalancer.php:52
+msgid "Algorithm Type"
+msgstr "Algorithmus"
+
+#: library/Hcloud/Model/LoadBalancer.php:53 library/Hcloud/Model/Server.php:59
+msgid "Outgoing Traffic"
+msgstr "Ausgehender Traffic"
+
+#: library/Hcloud/Model/LoadBalancer.php:54 library/Hcloud/Model/Server.php:60
+msgid "Ingoing Traffic"
+msgstr "Eingehender Traffic"
+
+#: library/Hcloud/Model/LoadBalancer.php:55
+#: library/Hcloud/Model/PricingLoadBalancerType.php:58
+#: library/Hcloud/Model/PricingServerType.php:58
+#: library/Hcloud/Model/Server.php:61
+msgid "Included Traffic"
+msgstr "Inkludierter Traffic"
+
+#: library/Hcloud/Model/LoadBalancer.php:56
+#: library/Hcloud/Model/PrimaryIp.php:54 library/Hcloud/Model/Server.php:64
+#: library/Hcloud/Model/ServerTypeLocation.php:51
+#: library/Hcloud/Model/StorageBox.php:64 library/Hcloud/Model/Volume.php:52
+msgid "Location ID"
+msgstr "Standort-ID"
+
+#: library/Hcloud/Model/LoadBalancer.php:57
+#: library/Hcloud/Model/PricingLoadBalancerType.php:51
+msgid "Load Balancer Type ID"
+msgstr "Load-Balancer-Typ-ID"
+
+#: library/Hcloud/Model/LoadBalancer.php:58
+msgid "Public Enabled"
+msgstr "Öffentlich aktiviert"
+
+#: library/Hcloud/Model/LoadBalancer.php:59
+msgid "Public IPv4"
+msgstr "Öffentliche IPv4"
+
+#: library/Hcloud/Model/LoadBalancer.php:60
+msgid "Public IPv4 DNS PTR"
+msgstr "Öffentliche IPv4 DNS-PTR"
+
+#: library/Hcloud/Model/LoadBalancer.php:61
+msgid "Public IPv6"
+msgstr "Öffentliche IPv6"
+
+#: library/Hcloud/Model/LoadBalancer.php:62
+msgid "Public IPv6 DNS PTR"
+msgstr "Öffentliche IPv6 DNS-PTR"
+
+#: library/Hcloud/Model/LoadBalancerPrivateNet.php:44
+#: library/Hcloud/Model/LoadBalancerService.php:64
+#: library/Hcloud/Model/LoadBalancerTargetHealth.php:47
+#: library/Hcloud/Model/LoadBalancerTarget.php:50
+msgid "Load Balancer ID"
+msgstr "Load-Balancer-ID"
+
+#: library/Hcloud/Model/LoadBalancerPrivateNet.php:45
+#: library/Hcloud/Model/NetworkRoute.php:44
+#: library/Hcloud/Model/NetworkSubnet.php:47
+#: library/Hcloud/Model/ServerPrivateNetAliasIp.php:45
+#: library/Hcloud/Model/ServerPrivateNet.php:46
+msgid "Network ID"
+msgstr "Netzwerk-ID"
+
+#: library/Hcloud/Model/LoadBalancerService.php:65
+#: library/Hcloud/Model/LoadBalancerTargetHealth.php:49
+msgid "Listen Port"
+msgstr "Listen-Port"
+
+#: library/Hcloud/Model/LoadBalancerService.php:67
+msgid "Destination Port"
+msgstr "Zielport"
+
+#: library/Hcloud/Model/LoadBalancerService.php:68
+msgid "Proxyprotocol"
+msgstr "Proxy-Protokoll"
+
+#: library/Hcloud/Model/LoadBalancerService.php:69
+msgid "Health Check Protocol"
+msgstr "Health-Check-Protokoll"
+
+#: library/Hcloud/Model/LoadBalancerService.php:70
+msgid "Health Check Port"
+msgstr "Health-Check-Port"
+
+#: library/Hcloud/Model/LoadBalancerService.php:71
+msgid "Health Check Interval"
+msgstr "Health-Check-Intervall"
+
+#: library/Hcloud/Model/LoadBalancerService.php:72
+msgid "Health Check Timeout"
+msgstr "Health-Check-Zeitüberschreitung"
+
+#: library/Hcloud/Model/LoadBalancerService.php:73
+msgid "Health Check Retries"
+msgstr "Health-Check-Versuche"
+
+#: library/Hcloud/Model/LoadBalancerService.php:74
+msgid "Health Check HTTP Domain"
+msgstr "Health-Check HTTP-Domain"
+
+#: library/Hcloud/Model/LoadBalancerService.php:75
+msgid "Health Check HTTP Path"
+msgstr "Health-Check HTTP-Pfad"
+
+#: library/Hcloud/Model/LoadBalancerService.php:76
+msgid "Health Check HTTP Response"
+msgstr "Health-Check HTTP-Antwort"
+
+#: library/Hcloud/Model/LoadBalancerService.php:77
+msgid "Health Check HTTP Status Codes"
+msgstr "Health-Check HTTP-Statuscodes"
+
+#: library/Hcloud/Model/LoadBalancerService.php:78
+msgid "Health Check HTTP TLS"
+msgstr "Health-Check HTTP-TLS"
+
+#: library/Hcloud/Model/LoadBalancerService.php:79
+msgid "HTTP Cookie Name"
+msgstr "HTTP-Cookie-Name"
+
+#: library/Hcloud/Model/LoadBalancerService.php:80
+msgid "HTTP Cookie Lifetime"
+msgstr "HTTP-Cookie-Lebensdauer"
+
+#: library/Hcloud/Model/LoadBalancerService.php:81
+msgid "HTTP Timeout Idle"
+msgstr "HTTP-Leerlauf-Zeitüberschreitung"
+
+#: library/Hcloud/Model/LoadBalancerService.php:82
+msgid "HTTP Sticky Sessions"
+msgstr "HTTP-Sticky-Sessions"
+
+#: library/Hcloud/Model/LoadBalancerService.php:83
+msgid "HTTP Redirect HTTP"
+msgstr "HTTP-Weiterleitung"
+
+#: library/Hcloud/Model/LoadBalancerService.php:84
+msgid "HTTP Certificates"
+msgstr "HTTP-Zertifikate"
+
+#: library/Hcloud/Model/LoadBalancerTargetHealth.php:48
+#: library/Hcloud/Model/LoadBalancerTarget.php:51
+msgid "Target Index"
+msgstr "Zielindex"
+
+#: library/Hcloud/Model/LoadBalancerTargetHealth.php:51
+msgid "Detail"
+msgstr "Detail"
+
+#: library/Hcloud/Model/LoadBalancerTargetHealth.php:52
+msgid "HTTP Status Code"
+msgstr "HTTP-Statuscode"
+
+#: library/Hcloud/Model/LoadBalancerTarget.php:52
+msgid "Parent Index"
+msgstr "Übergeordneter Index"
+
+#: library/Hcloud/Model/LoadBalancerTarget.php:55
+msgid "Server IP"
+msgstr "Server-IP"
+
+#: library/Hcloud/Model/LoadBalancerTarget.php:56
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: library/Hcloud/Model/LoadBalancerTarget.php:58
+msgid "Use Private IP"
+msgstr "Private IP verwenden"
+
+#: library/Hcloud/Model/LoadBalancerType.php:43
+msgid "Max Connections"
+msgstr "Max. Verbindungen"
+
+#: library/Hcloud/Model/LoadBalancerType.php:44
+msgid "Max Services"
+msgstr "Max. Services"
+
+#: library/Hcloud/Model/LoadBalancerType.php:45
+msgid "Max Targets"
+msgstr "Max. Ziele"
+
+#: library/Hcloud/Model/LoadBalancerType.php:46
+msgid "Max Assigned Certificates"
+msgstr "Max. zugewiesene Zertifikate"
+
+#: library/Hcloud/Model/Location.php:41
+msgid "Country"
+msgstr "Land"
+
+#: library/Hcloud/Model/Location.php:42
+msgid "City"
+msgstr "Stadt"
+
+#: library/Hcloud/Model/Location.php:43
+msgid "Latitude"
+msgstr "Breitengrad"
+
+#: library/Hcloud/Model/Location.php:44
+msgid "Longitude"
+msgstr "Längengrad"
+
+#: library/Hcloud/Model/Location.php:45
+#: library/Hcloud/Model/NetworkSubnet.php:50
+msgid "Network Zone"
+msgstr "Netzwerkzone"
+
+#: library/Hcloud/Model/MetricSample.php:50
+msgid "Series Name"
+msgstr "Serienname"
+
+#: library/Hcloud/Model/MetricSample.php:51
+msgid "Ts"
+msgstr "Zeitpunkt"
+
+#: library/Hcloud/Model/MetricSample.php:52
+#: library/Hcloud/Model/ZoneRrsetRecord.php:49
+msgid "Value"
+msgstr "Wert"
+
+#: library/Hcloud/Model/Network.php:42
+#: library/Hcloud/Model/NetworkSubnet.php:48
+msgid "IP Range"
+msgstr "IP-Bereich"
+
+#: library/Hcloud/Model/Network.php:44
+msgid "Expose Routes To vSwitch"
+msgstr "Routen an vSwitch veröffentlichen"
+
+#: library/Hcloud/Model/NetworkRoute.php:45
+msgid "Destination"
+msgstr "Ziel"
+
+#: library/Hcloud/Model/NetworkRoute.php:46
+#: library/Hcloud/Model/NetworkSubnet.php:51
+msgid "Gateway"
+msgstr "Gateway"
+
+#: library/Hcloud/Model/NetworkSubnet.php:52
+msgid "vSwitch ID"
+msgstr "vSwitch-ID"
+
+#: library/Hcloud/Model/ObjectStorageBucket.php:42
+#: library/Hcloud/Web/ReferenceResolver.php:85
+#: library/Hcloud/Web/Widget/CostBreakdown.php:81
+msgid "Location"
+msgstr "Standort"
+
+#: library/Hcloud/Model/ObjectStorageBucket.php:44
+msgid "Objects"
+msgstr "Objekte"
+
+#: library/Hcloud/Model/ObjectStorageBucket.php:45
+#: library/Hcloud/Model/StorageBoxType.php:43
+#: library/Hcloud/Model/Volume.php:50
+msgid "Size"
+msgstr "Größe"
+
+#: library/Hcloud/Model/ObjectStorageBucket.php:46
+msgid "Size Complete"
+msgstr "Größe vollständig"
+
+#: library/Hcloud/Model/ObjectStorageBucket.php:47
+msgid "Size Measured"
+msgstr "Größe gemessen"
+
+#: library/Hcloud/Model/PricingFloatingIp.php:46
+#: library/Hcloud/Model/PricingLoadBalancerType.php:52
+#: library/Hcloud/Model/PricingPrimaryIp.php:48
+#: library/Hcloud/Model/PricingServerType.php:52
+#: library/Hcloud/Model/PricingStorageBoxType.php:50
+#: library/Hcloud/Model/ServerTypeLocation.php:52
+msgid "Location Name"
+msgstr "Standortname"
+
+#: library/Hcloud/Model/PricingFloatingIp.php:47
+#: library/Hcloud/Model/PricingLoadBalancerType.php:56
+#: library/Hcloud/Model/PricingPrimaryIp.php:51
+#: library/Hcloud/Model/PricingServerType.php:56
+#: library/Hcloud/Model/PricingStorageBoxType.php:53
+msgid "Price Monthly Net"
+msgstr "Monatspreis netto"
+
+#: library/Hcloud/Model/PricingFloatingIp.php:48
+#: library/Hcloud/Model/PricingLoadBalancerType.php:57
+#: library/Hcloud/Model/PricingPrimaryIp.php:52
+#: library/Hcloud/Model/PricingServerType.php:57
+#: library/Hcloud/Model/PricingStorageBoxType.php:54
+msgid "Price Monthly Gross"
+msgstr "Monatspreis brutto"
+
+#: library/Hcloud/Model/PricingLoadBalancerType.php:54
+#: library/Hcloud/Model/PricingPrimaryIp.php:49
+#: library/Hcloud/Model/PricingServerType.php:54
+#: library/Hcloud/Model/PricingStorageBoxType.php:51
+msgid "Price Hourly Net"
+msgstr "Stundenpreis netto"
+
+#: library/Hcloud/Model/PricingLoadBalancerType.php:55
+#: library/Hcloud/Model/PricingPrimaryIp.php:50
+#: library/Hcloud/Model/PricingServerType.php:55
+#: library/Hcloud/Model/PricingStorageBoxType.php:52
+msgid "Price Hourly Gross"
+msgstr "Stundenpreis brutto"
+
+#: library/Hcloud/Model/PricingLoadBalancerType.php:59
+#: library/Hcloud/Model/PricingServerType.php:59
+msgid "Price Per TB Traffic Net"
+msgstr "Preis pro TB Traffic netto"
+
+#: library/Hcloud/Model/PricingLoadBalancerType.php:60
+#: library/Hcloud/Model/PricingServerType.php:60
+msgid "Price Per TB Traffic Gross"
+msgstr "Preis pro TB Traffic brutto"
+
+#: library/Hcloud/Model/Pricing.php:46
+msgid "Currency"
+msgstr "Währung"
+
+#: library/Hcloud/Model/Pricing.php:47
+msgid "VAT Rate"
+msgstr "Mehrwertsteuersatz"
+
+#: library/Hcloud/Model/Pricing.php:48
+msgid "Image Price Per GB Month Net"
+msgstr "Image-Preis pro GB/Monat netto"
+
+#: library/Hcloud/Model/Pricing.php:49
+msgid "Image Price Per GB Month Gross"
+msgstr "Image-Preis pro GB/Monat brutto"
+
+#: library/Hcloud/Model/Pricing.php:50
+msgid "Volume Price Per GB Month Net"
+msgstr "Volume-Preis pro GB/Monat netto"
+
+#: library/Hcloud/Model/Pricing.php:51
+msgid "Volume Price Per GB Month Gross"
+msgstr "Volume-Preis pro GB/Monat brutto"
+
+#: library/Hcloud/Model/Pricing.php:52
+msgid "Server Backup Percentage"
+msgstr "Backup-Aufschlag in Prozent"
+
+#: library/Hcloud/Model/Pricing.php:53
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: library/Hcloud/Model/PricingServerType.php:51
+#: library/Hcloud/Model/Server.php:63
+#: library/Hcloud/Model/ServerTypeLocation.php:50
+msgid "Server Type ID"
+msgstr "Servertyp-ID"
+
+#: library/Hcloud/Model/PricingStorageBoxType.php:49
+#: library/Hcloud/Model/StorageBox.php:65
+msgid "Storage Box Type ID"
+msgstr "Storage-Box-Typ-ID"
+
+#: library/Hcloud/Model/PricingStorageBoxType.php:55
+msgid "Setup Fee Net"
+msgstr "Einrichtungsgebühr netto"
+
+#: library/Hcloud/Model/PricingStorageBoxType.php:56
+msgid "Setup Fee Gross"
+msgstr "Einrichtungsgebühr brutto"
+
+#: library/Hcloud/Model/PrimaryIpDnsPtr.php:44
+msgid "Primary IP ID"
+msgstr "Primäre-IP-ID"
+
+#: library/Hcloud/Model/PrimaryIp.php:51
+msgid "Auto Delete"
+msgstr "Automatisch löschen"
+
+#: library/Hcloud/Model/PrimaryIp.php:52
+msgid "Assignee Type"
+msgstr "Zuordnungstyp"
+
+#: library/Hcloud/Model/PrimaryIp.php:53
+msgid "Assignee ID"
+msgstr "Zuordnungs-ID"
+
+#: library/Hcloud/Model/Project.php:47
+msgid "Config Key"
+msgstr "Konfigurationsschlüssel"
+
+#: library/Hcloud/Model/Schema.php:52
+msgid "Version"
+msgstr "Version"
+
+#: library/Hcloud/Model/Schema.php:53
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: library/Hcloud/Model/Schema.php:55
+msgid "Reason"
+msgstr "Grund"
+
+#: library/Hcloud/Model/Server.php:57
+msgid "Rescue Enabled"
+msgstr "Rescue aktiviert"
+
+#: library/Hcloud/Model/Server.php:58
+msgid "Backup Window"
+msgstr "Backup-Fenster"
+
+#: library/Hcloud/Model/Server.php:62
+msgid "Primary Disk Size"
+msgstr "Größe der primären Festplatte"
+
+#: library/Hcloud/Model/Server.php:65
+msgid "Image ID"
+msgstr "Image-ID"
+
+#: library/Hcloud/Model/Server.php:66
+msgid "ISO ID"
+msgstr "ISO-ID"
+
+#: library/Hcloud/Model/Server.php:67
+msgid "Placement Group ID"
+msgstr "Platzierungsgruppen-ID"
+
+#: library/Hcloud/Model/Server.php:69
+msgid "Protection Rebuild"
+msgstr "Rebuild-Schutz"
+
+#: library/Hcloud/Model/ServerPrivateNetAliasIp.php:46
+msgid "Alias IP"
+msgstr "Alias-IP"
+
+#: library/Hcloud/Model/ServerPrivateNet.php:48
+msgid "MAC Address"
+msgstr "MAC-Adresse"
+
+#: library/Hcloud/Model/ServerPublicIpDnsPtr.php:46
+#: library/Hcloud/Model/ServerPublicIp.php:47
+msgid "Family"
+msgstr "Adressfamilie"
+
+#: library/Hcloud/Model/ServerPublicIp.php:48
+msgid "IP ID"
+msgstr "IP-ID"
+
+#: library/Hcloud/Model/ServerTypeLocation.php:53
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: library/Hcloud/Model/ServerType.php:47
+msgid "Cores"
+msgstr "Kerne"
+
+#: library/Hcloud/Model/ServerType.php:48
+msgid "Memory"
+msgstr "Arbeitsspeicher"
+
+#: library/Hcloud/Model/ServerType.php:49
+msgid "Disk"
+msgstr "Festplatte"
+
+#: library/Hcloud/Model/ServerType.php:50
+msgid "Storage Type"
+msgstr "Speichertyp"
+
+#: library/Hcloud/Model/ServerType.php:51
+msgid "CPU Type"
+msgstr "CPU-Typ"
+
+#: library/Hcloud/Model/ServerType.php:52
+#: library/Hcloud/Web/Widget/CostBreakdown.php:79
+msgid "Category"
+msgstr "Kategorie"
+
+#: library/Hcloud/Model/SshKey.php:42
+msgid "Public Key"
+msgstr "Öffentlicher Schlüssel"
+
+#: library/Hcloud/Model/StorageBox.php:61
+#: library/Hcloud/Model/StorageBoxSubaccount.php:61
+msgid "Username"
+msgstr "Benutzername"
+
+#: library/Hcloud/Model/StorageBox.php:66
+#: library/Hcloud/Model/StorageBoxSnapshot.php:59
+msgid "Stats Size"
+msgstr "Belegter Speicher"
+
+#: library/Hcloud/Model/StorageBox.php:67
+msgid "Stats Size Data"
+msgstr "Belegt durch Daten"
+
+#: library/Hcloud/Model/StorageBox.php:68
+msgid "Stats Size Snapshots"
+msgstr "Belegt durch Snapshots"
+
+#: library/Hcloud/Model/StorageBox.php:69
+#: library/Hcloud/Model/StorageBoxSubaccount.php:66
+msgid "Access Reachable Externally"
+msgstr "Extern erreichbar"
+
+#: library/Hcloud/Model/StorageBox.php:70
+#: library/Hcloud/Model/StorageBoxSubaccount.php:67
+msgid "Access Samba Enabled"
+msgstr "Samba aktiviert"
+
+#: library/Hcloud/Model/StorageBox.php:71
+#: library/Hcloud/Model/StorageBoxSubaccount.php:68
+msgid "Access SSH Enabled"
+msgstr "SSH aktiviert"
+
+#: library/Hcloud/Model/StorageBox.php:72
+#: library/Hcloud/Model/StorageBoxSubaccount.php:69
+msgid "Access WebDAV Enabled"
+msgstr "WebDAV aktiviert"
+
+#: library/Hcloud/Model/StorageBox.php:73
+msgid "Access ZFS Enabled"
+msgstr "ZFS aktiviert"
+
+#: library/Hcloud/Model/StorageBox.php:74
+msgid "Snapshot Plan Max Snapshots"
+msgstr "Snapshot-Plan max. Snapshots"
+
+#: library/Hcloud/Model/StorageBox.php:75
+msgid "Snapshot Plan Minute"
+msgstr "Snapshot-Plan Minute"
+
+#: library/Hcloud/Model/StorageBox.php:76
+msgid "Snapshot Plan Hour"
+msgstr "Snapshot-Plan Stunde"
+
+#: library/Hcloud/Model/StorageBox.php:77
+msgid "Snapshot Plan Day Of Week"
+msgstr "Snapshot-Plan Wochentag"
+
+#: library/Hcloud/Model/StorageBox.php:78
+msgid "Snapshot Plan Day Of Month"
+msgstr "Snapshot-Plan Tag des Monats"
+
+#: library/Hcloud/Model/StorageBoxSnapshot.php:53
+#: library/Hcloud/Model/StorageBoxSubaccount.php:58
+msgid "Storage Box ID"
+msgstr "Storage-Box-ID"
+
+#: library/Hcloud/Model/StorageBoxSnapshot.php:57
+msgid "Is Automatic"
+msgstr "Automatisch"
+
+#: library/Hcloud/Model/StorageBoxSnapshot.php:60
+msgid "Stats Size Filesystem"
+msgstr "Belegt im Dateisystem"
+
+#: library/Hcloud/Model/StorageBoxSubaccount.php:62
+msgid "Home Directory"
+msgstr "Heimatverzeichnis"
+
+#: library/Hcloud/Model/StorageBoxSubaccount.php:70
+msgid "Access Readonly"
+msgstr "Nur Lesezugriff"
+
+#: library/Hcloud/Model/StorageBoxType.php:44
+msgid "Snapshot Limit"
+msgstr "Snapshot-Limit"
+
+#: library/Hcloud/Model/StorageBoxType.php:45
+msgid "Automatic Snapshot Limit"
+msgstr "Limit automatischer Snapshots"
+
+#: library/Hcloud/Model/StorageBoxType.php:46
+msgid "Subaccounts Limit"
+msgstr "Limit für Unterkonten"
+
+#: library/Hcloud/Model/SyncRun.php:49
+msgid "Project ID"
+msgstr "Projekt-ID"
+
+#: library/Hcloud/Model/SyncRun.php:51
+msgid "Ended"
+msgstr "Beendet"
+
+#: library/Hcloud/Model/SyncRun.php:53
+msgid "Resources Synced"
+msgstr "Synchronisierte Ressourcen"
+
+#: library/Hcloud/Model/SyncRun.php:54
+msgid "Rows Written"
+msgstr "Geschriebene Zeilen"
+
+#: library/Hcloud/Model/SyncRun.php:55
+msgid "Rows Deleted"
+msgstr "Gelöschte Zeilen"
+
+#: library/Hcloud/Model/SyncRun.php:56
+msgid "Api Requests"
+msgstr "API-Anfragen"
+
+#: library/Hcloud/Model/SyncRunResource.php:44
+msgid "Sync Run ID"
+msgstr "Lauf-ID"
+
+#: library/Hcloud/Model/SyncRunResource.php:45
+msgid "Resource"
+msgstr "Ressource"
+
+#: library/Hcloud/Model/SyncRunResource.php:46
+msgid "Fetched"
+msgstr "Abgerufen"
+
+#: library/Hcloud/Model/SyncRunResource.php:47
+msgid "Written"
+msgstr "Geschrieben"
+
+#: library/Hcloud/Model/SyncRunResource.php:49
+msgid "Duration ms"
+msgstr "Dauer (ms)"
+
+#: library/Hcloud/Model/Volume.php:49
+msgid "Linux Device"
+msgstr "Linux-Gerät"
+
+#: library/Hcloud/Model/Volume.php:51
+msgid "Format"
+msgstr "Format"
+
+#: library/Hcloud/Model/ZoneNameserver.php:44
+#: library/Hcloud/Model/ZonePrimaryNameserver.php:45
+#: library/Hcloud/Model/ZoneRrset.php:50
+#: library/Hcloud/Model/ZoneRrsetRecord.php:46
+msgid "Zone ID"
+msgstr "Zonen-ID"
+
+#: library/Hcloud/Model/ZoneNameserver.php:45
+msgid "Kind"
+msgstr "Art"
+
+#: library/Hcloud/Model/ZoneNameserver.php:46
+#: library/Hcloud/Model/ZonePrimaryNameserver.php:46
+msgid "Address"
+msgstr "Adresse"
+
+#: library/Hcloud/Model/Zone.php:48
+msgid "Mode"
+msgstr "Modus"
+
+#: library/Hcloud/Model/Zone.php:49 library/Hcloud/Model/ZoneRrset.php:54
+msgid "TTL"
+msgstr "TTL"
+
+#: library/Hcloud/Model/Zone.php:51
+msgid "Record Count"
+msgstr "Anzahl Einträge"
+
+#: library/Hcloud/Model/Zone.php:52
+msgid "Registrar"
+msgstr "Registrar"
+
+#: library/Hcloud/Model/Zone.php:53
+msgid "Delegation Last Check"
+msgstr "Delegation zuletzt geprüft"
+
+#: library/Hcloud/Model/Zone.php:54
+msgid "Delegation Status"
+msgstr "Delegationsstatus"
+
+#: library/Hcloud/Model/ZonePrimaryNameserver.php:48
+msgid "TSIG Algorithm"
+msgstr "TSIG-Algorithmus"
+
+#: library/Hcloud/Model/ZoneRrset.php:55
+msgid "Protection Change"
+msgstr "Änderungsschutz"
+
+#: library/Hcloud/Model/ZoneRrsetRecord.php:47
+msgid "RRset ID"
+msgstr "RRset-ID"
+
+#: library/Hcloud/Model/ZoneRrsetRecord.php:48
+msgid "Record Index"
+msgstr "Eintragsindex"
+
+#: library/Hcloud/Model/ZoneRrsetRecord.php:50
+msgid "Comment"
+msgstr "Kommentar"
+
+#: library/Hcloud/Pricing/CostCalculator.php:74
+msgid "Snapshots and backups"
+msgstr "Snapshots und Backups"
+
+#: library/Hcloud/Pricing/CostCalculator.php:209
+msgid "Server traffic overage"
+msgstr "Server-Traffic-Überschreitung"
+
+#: library/Hcloud/Pricing/CostCalculator.php:214
+msgid "Load balancer traffic overage"
+msgstr "Load-Balancer-Traffic-Überschreitung"
+
+#: library/Hcloud/ProvidedHook/Director/BaseImportSource.php:80
+msgid ""
+"This import source reads from the local hcloud database. Run \"icingacli "
+"hcloud sync run\" first."
+msgstr ""
+"Diese Importquelle liest aus der lokalen hcloud-Datenbank. Bitte zuerst "
+"\"icingacli hcloud sync run\" ausführen."
+
+#: library/Hcloud/ProvidedHook/Health.php:32
+msgid "No database resource is configured."
+msgstr "Es ist keine Datenbankressource konfiguriert."
+
+#: library/Hcloud/ProvidedHook/Health.php:42
+#, php-format
+msgid "Cannot read the Hetzner Cloud database: %s"
+msgstr "Die Hetzner-Cloud-Datenbank kann nicht gelesen werden: %s"
+
+#: library/Hcloud/ProvidedHook/Health.php:58
+msgid "No Hetzner Cloud project is configured."
+msgstr "Es ist kein Hetzner-Cloud-Projekt konfiguriert."
+
+#: library/Hcloud/ProvidedHook/Health.php:88
+msgid "No successful sync has run yet."
+msgstr "Es gab noch keine erfolgreiche Synchronisierung."
+
+#: library/Hcloud/ProvidedHook/Health.php:98
+#, php-format
+msgid "The last successful sync finished %d minutes ago."
+msgstr "Die letzte erfolgreiche Synchronisierung liegt %d Minuten zurück."
+
+#: library/Hcloud/ProvidedHook/Health.php:108
+#, php-format
+msgid "%d of %d projects failed to sync."
+msgstr "%d von %d Projekten konnten nicht synchronisiert werden."
+
+#: library/Hcloud/ProvidedHook/Health.php:118
+#, php-format
+msgid "%d projects synced, last sync %d minutes ago."
+msgstr "%d Projekte synchronisiert, letzte Synchronisierung vor %d Minuten."
+
+#: library/Hcloud/Web/DetailController.php:90
+msgid "No such object"
+msgstr "Objekt nicht gefunden"
+
+#: library/Hcloud/Web/DetailController.php:95
+msgid "Details"
+msgstr "Details"
+
+#: library/Hcloud/Web/DetailController.php:195
+msgid "Metrics"
+msgstr "Messwerte"
+
+#: library/Hcloud/Web/DetailController.php:204
+msgid "No samples in this range."
+msgstr "Keine Messwerte in diesem Zeitraum."
+
+#: library/Hcloud/Web/ReferenceResolver.php:76
+msgid "Certificate"
+msgstr "Zertifikat"
+
+#: library/Hcloud/Web/ReferenceResolver.php:77
+msgid "Created From"
+msgstr "Erstellt aus"
+
+#: library/Hcloud/Web/ReferenceResolver.php:78
+msgid "Firewall"
+msgstr "Firewall"
+
+#: library/Hcloud/Web/ReferenceResolver.php:79
+#: library/Hcloud/Web/Widget/CostBreakdown.php:108
+msgid "Floating IP"
+msgstr "Floating IP"
+
+#: library/Hcloud/Web/ReferenceResolver.php:80
+msgid "Home Location"
+msgstr "Heimatstandort"
+
+#: library/Hcloud/Web/ReferenceResolver.php:81
+msgid "Image"
+msgstr "Image"
+
+#: library/Hcloud/Web/ReferenceResolver.php:82
+msgid "ISO"
+msgstr "ISO"
+
+#: library/Hcloud/Web/ReferenceResolver.php:83
+#: library/Hcloud/Web/Widget/CostBreakdown.php:105
+msgid "Load Balancer"
+msgstr "Load Balancer"
+
+#: library/Hcloud/Web/ReferenceResolver.php:84
+msgid "Load Balancer Type"
+msgstr "Load-Balancer-Typ"
+
+#: library/Hcloud/Web/ReferenceResolver.php:86
+msgid "Network"
+msgstr "Netzwerk"
+
+#: library/Hcloud/Web/ReferenceResolver.php:87
+msgid "Placement Group"
+msgstr "Platzierungsgruppe"
+
+#: library/Hcloud/Web/ReferenceResolver.php:88
+#: library/Hcloud/Web/Widget/CostBreakdown.php:107
+msgid "Primary IP"
+msgstr "Primäre IP"
+
+#: library/Hcloud/Web/ReferenceResolver.php:90
+msgid "Server Type"
+msgstr "Servertyp"
+
+#: library/Hcloud/Web/ReferenceResolver.php:91
+#: library/Hcloud/Web/Widget/CostBreakdown.php:109
+msgid "Storage Box"
+msgstr "Storage Box"
+
+#: library/Hcloud/Web/ReferenceResolver.php:92
+msgid "Storage Box Type"
+msgstr "Storage-Box-Typ"
+
+#: library/Hcloud/Web/ReferenceResolver.php:93
+msgid "Zone"
+msgstr "Zone"
+
+#: library/Hcloud/Web/ResourceController.php:154
+msgid "Adjust Filter"
+msgstr "Filter anpassen"
+
+#: library/Hcloud/Web/ValueFormatter.php:152
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:59
+msgid "Yes"
+msgstr "Ja"
+
+#: library/Hcloud/Web/ValueFormatter.php:153
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:59
+msgid "No"
+msgstr "Nein"
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:35
+msgid "No project has been synced yet."
+msgstr "Es wurde noch kein Projekt synchronisiert."
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:50
+msgid ""
+"No pricing data has been synced for this project, so no cost can be shown. "
+"Run a sync to fetch it."
+msgstr ""
+"Für dieses Projekt wurden keine Preisdaten synchronisiert, daher lassen sich "
+"keine Kosten anzeigen. Ein Sync holt sie."
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:62
+msgid "This project holds no billable resources."
+msgstr "Dieses Projekt enthält keine abrechenbaren Ressourcen."
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:82
+msgid "Count"
+msgstr "Anzahl"
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:83
+msgid "Monthly net"
+msgstr "Monatlich netto"
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:84
+msgid "Monthly gross"
+msgstr "Monatlich brutto"
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:106
+msgid "Volume"
+msgstr "Volume"
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:111
+msgid "Traffic"
+msgstr "Traffic"
+
+#: library/Hcloud/Web/Widget/CostBreakdown.php:124
+#, php-format
+msgid "Estimated monthly total: %s net, %s gross%s"
+msgstr "Geschätzte Monatssumme: %s netto, %s brutto%s"
+
+#: library/Hcloud/Web/Widget/MetricChart.php:116
+msgid "Not enough samples to draw a chart yet."
+msgstr "Noch nicht genug Messwerte für eine Grafik."
+
+#: library/Hcloud/Web/Widget/MetricChart.php:359
+#, php-format
+msgid "now %s, avg %s, max %s"
+msgstr "jetzt %s, Ø %s, max. %s"
+
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:38
+msgid "No project configured yet. Add the first one below."
+msgstr "Noch kein Projekt konfiguriert. Unten das erste anlegen."
+
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:50
+msgid "Token"
+msgstr "Token"
+
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:58
+msgid "Stored"
+msgstr "Gespeichert"
+
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:58
+msgid "Missing"
+msgstr "Fehlt"
+
+#: library/Hcloud/Web/Widget/ProjectConfigList.php:73
+msgid "Add another project"
+msgstr "Weiteres Projekt anlegen"
+
+#: library/Hcloud/Web/Widget/ProjectSummary.php:37
+#, php-format
+msgid "Configured but never synced: %s. Run a sync to populate these."
+msgstr "Konfiguriert, aber nie synchronisiert: %s. Ein Sync füllt diese."
+
+#: library/Hcloud/Web/Widget/ProjectSummary.php:48
+msgid "No Hetzner Cloud project is configured yet."
+msgstr "Es ist noch kein Hetzner-Cloud-Projekt konfiguriert."
+
+#: library/Hcloud/Web/Widget/ProjectSummary.php:49
+msgid "Nothing has been synced yet."
+msgstr "Es wurde noch nichts synchronisiert."
+
+#: library/Hcloud/Web/Widget/ProjectSummary.php:64
+msgid "Never synced"
+msgstr "Nie synchronisiert"
+
+#: library/Hcloud/Web/Widget/ProjectSummary.php:65
+#, php-format
+msgid "Last sync: %s"
+msgstr "Letzte Synchronisierung: %s"
+
+#: library/Hcloud/Web/Widget/ResourceTable.php:70
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#: library/Hcloud/Web/Widget/SetupHint.php:35
+msgid "Setup is not finished yet"
+msgstr "Die Einrichtung ist noch nicht abgeschlossen"
+
+#: library/Hcloud/Web/Widget/SetupHint.php:39
+msgid "No database resource is selected for this module yet."
+msgstr "Für dieses Modul ist noch keine Datenbank-Resource ausgewählt."
+
+#: library/Hcloud/Web/Widget/SetupHint.php:40
+msgid "The configured database cannot be read. Has the schema been applied?"
+msgstr ""
+"Die konfigurierte Datenbank kann nicht gelesen werden. Wurde das Schema "
+"eingespielt?"
+
+#: library/Hcloud/Web/Widget/SetupHint.php:56
+msgid "Create a database and a user for it."
+msgstr "Eine Datenbank und einen Benutzer dafür anlegen."
+
+#: library/Hcloud/Web/Widget/SetupHint.php:57
+msgid "Apply schema/mysql.sql or schema/pgsql.sql to that database."
+msgstr "schema/mysql.sql bzw. schema/pgsql.sql in diese Datenbank einspielen."
+
+#: library/Hcloud/Web/Widget/SetupHint.php:58
+msgid "Create a matching resource under Configuration, Resources."
+msgstr "Eine passende Resource unter Konfiguration, Resourcen anlegen."
+
+#: library/Hcloud/Web/Widget/SetupHint.php:59
+msgid "Select that resource on the Database tab of this module."
+msgstr "Diese Resource im Reiter Datenbank dieses Moduls auswählen."
+
+#: library/Hcloud/Web/Widget/SetupHint.php:60
+msgid ""
+"Add a project with a Hetzner API token, then run: icingacli hcloud sync run"
+msgstr ""
+"Ein Projekt mit Hetzner-API-Token anlegen, dann ausführen: icingacli hcloud "
+"sync run"
+
+#: library/Hcloud/Web/Widget/SetupHint.php:69
+msgid "Configure this module"
+msgstr "Dieses Modul konfigurieren"
+
+#: library/Hcloud/Web/Widget/TimeRangePicker.php:33
+msgid "Range"
+msgstr "Zeitraum"

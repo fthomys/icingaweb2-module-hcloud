@@ -1,0 +1,8 @@
+Module: hcloud
+Version: 0.2.0
+Requires:
+  Libraries: icinga-php-library (>=1.0.0), icinga-php-thirdparty (>=1.0.0)
+Description: Browse Hetzner Cloud projects inside Icinga Web 2.
+ Syncs servers, volumes, networks, load balancers, firewalls, IPs, certificates, DNS zones
+ and storage boxes into a local database, and renders inventory, metrics and cost views from
+ it. Read-only: the module never issues a mutating request against the Hetzner API.

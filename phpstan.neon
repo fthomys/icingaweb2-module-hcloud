@@ -1,0 +1,23 @@
+parameters:
+    level: 8
+    phpVersion: 80200
+
+    paths:
+        - application
+        - library
+
+    bootstrapFiles:
+        - dev/phpstan-bootstrap.php
+
+    treatPhpDocTypesAsCertain: false
+
+    # ipl\Sql\Connection proxies unknown methods to PDO through __call but declares no @method tags,
+    # so PHPStan cannot see PDO::exec(). Icinga Web's own DbMigrationStep::apply() calls it the same
+    # way. Applying a multi statement upgrade script is exactly what PDO::exec() is for; prepexec()
+    # would have to split the script first, which is fragile. The defect is the missing annotation
+    # upstream, not this call.
+    ignoreErrors:
+        -
+            identifier: method.notFound
+            message: '#Call to an undefined method ipl\\Sql\\Connection::exec\(\)#'
+            path: library/Hcloud/Db/Migrator.php
